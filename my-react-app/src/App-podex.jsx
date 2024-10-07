@@ -47,7 +47,6 @@ const dataPodex = {
 function AppPodex() {
   return (
     <>
-      <h1 style={{ color: " #838382" }}>Pokedex</h1>
       {dataPodex.pokemon.map((poke) => (
         <CardPodex
           key={poke.id}
